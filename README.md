@@ -9,7 +9,7 @@ It's a Python project that combines **whale alert scraping**, **transaction anal
 This repo consists of three main components:
 
 1. **Whale Alert Scraper**  
-   Uses Selenium with a headless Firefox browser to scrape large crypto transaction alerts (whale alerts) from [Nitter's Whale Alert feed](https://nitter.net/whale_alert). It filters and extracts relevant data like transfer amounts, coins, and destination exchanges.
+   Uses Selenium with a headless Firefox browser to scrape large crypto transaction alerts (whale alerts) from a twitter page called **whale_alert** using **nitter**(https://nitter.net/whale_alert). It filters and extracts relevant data like transfer amounts, coins, and destination exchanges.
 
 2. **Whale Transfer Analyzer**  
    Processes the scraped whale transfer data from CSV files, filters transfers from unknown wallets to exchanges, and analyzes short-term price impact using Binance's public API. This helps understand how whale movements affect price action in the minutes following a transfer.
